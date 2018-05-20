@@ -26,7 +26,6 @@ public class JokeServiceImplementation implements JokeService
 
     /**
      *  Create a JokeServiceImplementation with the specified arguments.
-     *	@param chuck_norris_quotes the given variable whose type is ChuckNorrisQuotes.
      */
     public JokeServiceImplementation()
     {
