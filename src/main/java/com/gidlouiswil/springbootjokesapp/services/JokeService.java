@@ -17,7 +17,7 @@ public interface JokeService
 {
     /**
      *  Returns a randomly chosen joke.
-     *	@return a randomly chosen joke..
+     *	@return a randomly chosen joke.
      */
     public String getJoke();
 }

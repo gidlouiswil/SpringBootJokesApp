@@ -25,13 +25,17 @@ public class JokeServiceImplementation implements JokeService
     private final ChuckNorrisQuotes chuck_norris_quotes;
 
     /**
-     *  Create a JokeServiceImplementation with the specified arguments.
+     *  Create a JokeServiceImplementation.
      */
     public JokeServiceImplementation()
     {
         this.chuck_norris_quotes = new ChuckNorrisQuotes();
     }
 
+    /**
+     *  Returns a randomly chosen joke.
+     *	@return a randomly chosen joke.
+     */
     @Override
     public String getJoke()
     {
