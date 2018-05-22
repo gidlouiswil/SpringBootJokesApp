@@ -12,11 +12,13 @@ package com.gidlouiswil.springbootjokesapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ImportResource;
 
 /**
  *  A class that launches the application.
  */
 @SpringBootApplication
+@ImportResource("classpath:chuck_norris_quotes-configuration.xml")
 public class SpringbootjokesApplication
 {
 

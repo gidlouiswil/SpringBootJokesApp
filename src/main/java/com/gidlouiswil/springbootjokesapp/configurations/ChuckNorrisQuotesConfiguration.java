@@ -17,14 +17,14 @@ import org.springframework.context.annotation.Configuration;
 /**
  *  The configuration related to the Chuck Norris's quotes.
  */
-@Configuration
+//@Configuration
 public class ChuckNorrisQuotesConfiguration
 {
     /**
      *  Returns an instance of the ChuckNorrisQuotes class.
      *	@return an instance of the ChuckNorrisQuotes class.
      */
-    @Bean
+    //@Bean
     public ChuckNorrisQuotes chuckNorrisQuotes()
     {
         return new ChuckNorrisQuotes();
