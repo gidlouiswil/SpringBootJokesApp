@@ -27,9 +27,9 @@ public class JokeServiceImplementation implements JokeService
     /**
      *  Create a JokeServiceImplementation.
      */
-    public JokeServiceImplementation()
+    public JokeServiceImplementation(ChuckNorrisQuotes chuck_norris_quotes)
     {
-        this.chuck_norris_quotes = new ChuckNorrisQuotes();
+        this.chuck_norris_quotes = chuck_norris_quotes;
     }
 
     /**
